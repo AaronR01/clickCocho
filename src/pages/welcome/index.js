@@ -11,6 +11,7 @@ import {
 import * as Animatable from 'react-native-animatable'
 
 import { useNavigation } from "@react-navigation/native";
+import CustomButton from "../../../components/CustomButton";
 
 export default function Welcome() {
 
@@ -36,6 +37,7 @@ export default function Welcome() {
                 >
                     <Text style={styles.buttonText}>Entrar</Text>
                 </TouchableOpacity>
+                <CustomButton text="Teste" route="SignIn"/>
                 <TouchableOpacity 
                     style={styles.buttoSemLogim}
                     onPress={ () => navigation.navigate('Camera1')}>
