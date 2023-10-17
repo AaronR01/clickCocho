@@ -35,9 +35,9 @@ export default function Welcome() {
                     style={styles.button}
                     onPress={ () => navigation.navigate('SignIn')}
                 >
-                    <Text style={styles.buttonText}>Entrar</Text>
+                    <Text style={styles.buttonText}>Cadastrar</Text>
                 </TouchableOpacity>
-                <CustomButton text="Teste" route="SignIn"/>
+                <CustomButton text="Entrar" route="LogIn"/>
                 <TouchableOpacity 
                     style={styles.buttoSemLogim}
                     onPress={ () => navigation.navigate('Camera1')}>
