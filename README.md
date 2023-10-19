@@ -1,8 +1,8 @@
-#projeto de IC Click Cocho
+# projeto de IC Click Cocho
 projeto que tem finalidade fazer um aplicativo para dispositivos moveis como uma interface de usuario para a rede neural desenvolvida no DCC UFJF
 
-##Install
+## Install
 npm install
 
-##Run
+## Run
 npx expo start
