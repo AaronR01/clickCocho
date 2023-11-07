@@ -3,6 +3,8 @@ import Welcome from '../pages/welcome'
 import SigIn from '../pages/SignIn'
 import Camera from '../pages/Camera'
 import LogIn from '../pages/LogIn';
+import Menu from '../pages/Menu';
+import Cadastro from '../pages/Cadastro'
 
 const Stack = createNativeStackNavigator();
 
@@ -20,13 +22,23 @@ export default function Routes() {
                 options={{ headerShown: false}}
             />
             <Stack.Screen
+                name='LogIn'
+                component={LogIn}
+                options={{headerShown: false}}
+            />
+            <Stack.Screen
+                name='Menu'
+                component={Menu}
+                options={{headerShown: false}}
+            />
+            <Stack.Screen
                 name='Camera1'
                 component={Camera}
                 options={{ headerShown: false}}
             />
             <Stack.Screen
-                name='LogIn'
-                component={LogIn}
+                name='Cadastro'
+                component={Cadastro}
                 options={{headerShown: false}}
             />
         </Stack.Navigator>

@@ -17,7 +17,7 @@ export default function SigIn() {
     function logar(){
         const data = { email, senha}
         if(email === 'Adm.ufjf' && senha === '123') {
-            navigation.navigate('Camera1')
+            navigation.navigate('Menu')
         }
         else {
             console.log(data)
